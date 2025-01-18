@@ -1,0 +1,694 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+
+
+
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+.navbar {
+    position: fixed;
+    z-index: 999;
+    margin-top: 20px;
+
+    /* border: 5px solid black ; */
+    width: 100%;
+    height: 80px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    height: 60px;
+
+}
+
+.page1 {
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+    background-size: auto;
+
+    width: 100%;
+    height: 110%;
+}
+
+.navbar>button {
+
+    border-color: transparent;
+    border-radius: 100px;
+    background-color: black;
+    margin-right: 40px;
+    display: flex;
+    width: 11%;
+    gap: 22px;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu {
+    margin-left: 40px;
+}
+
+.and {
+    width: 40px;
+}
+
+.ios {
+    padding-right: 10px;
+    border-right: 2px solid white;
+    width: 40px;
+}
+
+.box1 {
+    letter-spacing: 6px;
+    top: 20%;
+    left: 30%;
+    /* border: 2px solid black; */
+    position: absolute;
+
+    width: 70%;
+    height: 70%;
+    /* background-color: blanchedalmond; */
+}
+
+.c1 {
+
+    /* border: 2px solid black; */
+    color: #FFE30A;
+    font-size: 150px;
+}
+
+.c2 {
+
+    color: #FFE30A;
+    position: absolute;
+    top: 27%;
+    /* border: 2px solid black; */
+    font-size: 150px;
+    margin-left: 50px;
+}
+
+.c3 {
+    color: #FFE30A;
+    top: 57%;
+    position: absolute;
+    font-size: 150px;
+    margin-left: 70px;
+
+}
+
+.page2 {
+
+    position: relative;
+    width: 100%;
+    height: 120%;
+    background-color: #FFE30A;
+}
+
+.subpage2 {
+    /* background-color: aqua; */
+    top: 50px;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+
+.phone {
+
+    position: absolute;
+    left: 52%;
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+.cell {
+    top: 50px;
+    height: 100%;
+}
+
+.box2 {
+    letter-spacing: 6px;
+    top: 10vw;
+    left: 10%;
+    /* border: 2px solid black; */
+    position: absolute;
+
+    width: 70%;
+    height: 70%;
+    /* background-color: blanchedalmond; */
+}
+
+.c2_1 {
+
+    /* border: 2px solid black; */
+    color: #0e0e0d;
+    font-size: 120px;
+}
+
+.c2_2 {
+
+    color: #040404;
+    position: absolute;
+    top: 27%;
+    /* border: 2px solid black; */
+    font-size: 120px;
+    /* margin-left: 50px; */
+}
+
+.c2_3 {
+    color: #111010;
+    top: 57%;
+    position: absolute;
+    font-size: 120px;
+    /* margin-left: 70px; */
+
+}
+
+.toy {
+    position: absolute;
+    width: 180px;
+    left: 75%;
+    top: 82vh;
+}
+
+.lit {
+    width: 200px;
+    /* height: 10px; */
+    left: 56.5%;
+    top: 22vh;
+    position: absolute;
+}
+
+.join {
+    width: 280px;
+    /* height: 10px; */
+    left: -33%;
+    top: 38vh;
+    position: absolute;
+}
+
+.hey {
+    width: 200px;
+    /* height: 10px; */
+    left: -35%;
+    top: 67.5vh;
+    position: absolute;
+}
+
+.lets {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    left: 95%;
+    top: 70vh;
+}
+
+.gpay {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    left: 18%;
+    top: 70vh;
+}
+
+.astore {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    left: -3%;
+    top: 70vh;
+}
+
+.page3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #FFE30A;
+    background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+    background-size: cover;
+}
+
+.box3 {
+    letter-spacing: 6px;
+    top: 35%;
+    left: 15%;
+    /* border: 2px solid rgb(237, 228, 228); */
+    position: absolute;
+
+    width: 35%;
+    height: 65%;
+    /* background-color: blanchedalmond; */
+}
+
+.c3_1 {
+
+    /* border: 2px solid black; */
+    color: #FFE30A;
+    font-size: 120px;
+}
+
+.c3_2 {
+
+    color: #FFE30A;
+    position: absolute;
+    top: 27%;
+    /* border: 2px solid black; */
+    font-size: 120px;
+    /* margin-left: 50px; */
+}
+
+.c3_3 {
+    color: #FFE30A;
+    top: 57%;
+    position: absolute;
+    font-size: 120px;
+    /* margin-left: 70px; */
+
+}
+
+.cont3 {
+    top: 50%;
+    left: 57%;
+    width: 30%;
+    position: absolute;
+    /* background-color: aqua; */
+    height: 50%;
+}
+
+.cont3>button {
+    background-color: #FFE30A;
+    border-radius: 50px;
+    font-weight: 10;
+    font-size: 20px;
+    width: 40%;
+    padding: 10px;
+    top: 80%;
+    left: 5%;
+    position: absolute;
+}
+
+.cont3>h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 50;
+    /* width: 60%;fo */
+    /* border: 2px solid red; */
+}
+
+.page4 {
+    background-color: #151400;
+    width: 100%;
+    height: 200%;
+    display: flex;
+    position: relative;
+}
+
+.subpage4 {
+    top: 15%;
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 900px;
+    display: flex;
+    position: absolute;
+}
+
+.content4 {
+    /* border: 2px solid red; */
+    color: white;
+    left: 15%;
+    top: 45%;
+    position: absolute;
+    width: 27%;
+    height: 60%;
+
+}
+
+.content4>button {
+    border-color: transparent;
+    background-color: #FFE30A;
+    border-radius: 50px;
+    margin-top: 50px;
+    height: 10%;
+    width: 40%;
+}
+
+.here {
+    top: 10px;
+    position: absolute;
+    left: 15%;
+    width: 400px;
+}
+
+.pic4 {
+    position: absolute;
+    left: 50.5%;
+    width: 470px;
+    height: 680px;
+    /* border: 5px solid rebeccapurple; */
+}
+
+.pic4>img {
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.content4>h3 {
+    font-weight: 50;
+    font-size: 25px;
+}
+
+.page5 {
+
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg);
+    position: relative;
+    background-color: #151400;
+    width: 100%;
+    height: 200%;
+}
+
+.content5 {
+    position: absolute;
+    width: 50%;
+    /* border: 4px solid black; */
+    left: 12%;
+}
+
+.content5>h2 {
+
+    font-weight: 100;
+    color: #FFE30A;
+    font-size: 120px;
+
+}
+
+
+.content5>h3 {
+    top: 75%;
+    position: absolute;
+    font-weight: 100;
+    color: #FFE30A;
+    font-size: 120px;
+}
+
+.hand {
+    width: 90px;
+}
+
+.subpage5>button {
+
+    border-color: transparent;
+    background-color: #FFE30A;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 50px;
+    top: 80px;
+    position: absolute;
+    left: 78%;
+    height: 50px;
+    width: 120px;
+}
+
+.purple {
+    border-radius: 40px;
+    position: relative;
+    background-image: url("https://images.prismic.io/yubo/4e7a5333-9e65-4a60-a2d1-7b9680e002f2_Blog_CommunityTipsAndTricks.png?auto=compress,format");
+    position: absolute;
+    /* border: 2px solid rgb(18, 17, 17); */
+    width: 500px;
+    height: 35%;
+    left: 50%;
+    top: 18%;
+    background-size: cover;
+    background-position: center;
+}
+
+.pc {
+    border-radius: 40px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #00000086;
+}
+
+.pc>h3 {
+    padding: 10px;
+    color: white;
+    top: 180px;
+    font-weight: 100;
+    font-size: 50px;
+    position: absolute;
+
+    width: 100%;
+    /* background-color: #ffffff6f; */
+}
+
+.pc>button {
+
+    border-color: transparent;
+    background-color: #FF5252;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 5px;
+    top: 12px;
+    position: absolute;
+    left: 6%;
+    height: 30px;
+    width: 70px;
+
+}
+
+.horo {
+    border-radius: 30px;
+    left: 15%;
+    top: 33%;
+    position: absolute;
+    background-image: url(https://images.prismic.io/yubo/42e1a41b-e054-4f52-a214-e3ea5e475aa4_Blog_Yubo+Horoscope.png?auto=compress,format);
+    background-position: center;
+    background-size: cover;
+    /* background-color: #ffffff; */
+    width: 25%;
+    height: 35%;
+}
+
+.hc {
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #00000086;
+}
+
+.hc>button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-color: transparent;
+    background-color: #8E6BFF;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 5px;
+    top: 12px;
+    position: absolute;
+    left: 75%;
+    height: 30px;
+
+
+}
+
+.hc>h4 {
+    color: white;
+    top: 70%;
+    left: 10%;
+    font-weight: 100;
+    font-size: 40px;
+    position: absolute;
+    /* background: #8a7777; */
+}
+
+.men {
+    border-radius: 30px;
+    left: 54%;
+    top: 58%;
+    position: absolute;
+    background-image: url(https://images.prismic.io/yubo/f34dcf26-d146-4205-ab86-46e4daef0781_Blog_Community+Building+and+Making+Friends+on+Yubo.png?auto=compress,format);
+    background-position: center;
+    background-size: cover;
+    /* background-color: #ffffff; */
+    width: 32%;
+    height: 38%;
+}
+
+.mc {
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #00000086;
+}
+
+.mc>h4 {
+    color: white;
+    top: 30%;
+    left: 10%;
+    font-weight: 100;
+    font-size: 50px;
+    position: absolute;
+    /* background: #8a7777; */
+}
+
+.mc>button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-color: transparent;
+    background-color: #FFE30A;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 5px;
+    top: 12px;
+    position: absolute;
+    left: 6%;
+    height: 30px;
+    width: 90px;
+
+}
+
+.page6 {
+    position: relative;
+    background-color: #976BFF;
+    background-image: url(https://www.yubo.live/assets/img/footer-bg.svg);
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 150%;
+}
+
+.allfit {
+    /* border: 2px solid black; */
+    top: 7%;
+    left: 25%;
+    position: absolute;
+}
+
+.about {
+    background-color: #FFE500;
+    display: flex;
+    top: 55%;
+    position: absolute;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 65%;
+}
+
+.abt1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+
+    /* border: 2px solid black; */
+    width: 20%;
+    height: 65%;
+
+}
+
+.abt1>ul {
+    list-style: none;
+}
+
+.abt1>ul>li>h2 {
+    left: 10px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.abt1>ul>li>h2:hover {
+    text-shadow: 0 0 10px #976BFF;
+}
+
+.abt1>ul>li>h4 {
+    margin: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.abt1>ul>li>h4:hover {
+
+    border-bottom: 2px solid black;
+}
+
+.social {
+    position: absolute;
+    /* border: 2px solid black; */
+    width: 30%;
+    height: 50px;
+    top: 70%;
+    left: 37%;
+}
+
+.legal {
+
+    top: 90%;
+    /* border: 2px solid black; */
+    left: 5.5%;
+    position: absolute;
+
+}
+.legal>h4{
+    word-spacing: 2px;
+    font-weight: 100;
+}
+.legal>ul {
+    font-weight: 100;
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.made {
+    top: 90%;
+    /* border: 2px solid black; */
+    left: 60%;
+    position: absolute;
+
+}
+
+.made>h4 {
+    font-weight: 600;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.eng {
+    font-weight: 100;
+    top: 90%;
+    /* border: 2px solid black; */
+    right: 5%;
+    position: absolute;
+
+}
